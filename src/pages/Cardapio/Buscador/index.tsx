@@ -13,6 +13,7 @@ const Buscador = ({ busca, setBusca}: Props) => {
         id='cardapio'
         type="text"
         value={busca}
+        placeholder='Buscar'
         onChange={event => setBusca(event.target.value)}
       />
       <label htmlFor="cardapio">

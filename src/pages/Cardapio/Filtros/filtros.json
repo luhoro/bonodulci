@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Bebidas",
+    "id": 1
+  },
+  {
+    "label": "Sorvetes",
+    "id": 2
+  },
+  {
+    "label": "Bolos",
+    "id": 3
+  },
+  {
+    "label": "Milkshakes",
+    "id": 4
+  }
+]
