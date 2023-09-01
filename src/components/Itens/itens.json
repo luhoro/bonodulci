@@ -1,119 +1,146 @@
 [
   {
-    "title": "Macarrão mediterrâneo",
-    "description": "Macarrão spaghetti com frutos-do-mar e especíarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
-    "photo": "",
+    "title": "Bolo de chocolate",
+    "photo": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1989&q=80",
     "size": 400,
-    "serving": 2,
-    "price": 73.0,
+    "serving": 5,
+    "price": 55,
     "id": 1,
     "category": {
       "id": 1,
-      "label": "Massas"
+      "label": "Bolos"
     }
   },
   {
-    "title": "Macarrão da casa",
-    "description": "Macarrão com frutos-do-mar e especíarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
-    "photo": "/assets/pratos/macarrao_da_casa.png",
-    "size": 400,
-    "serving": 2,
-    "price": 54.0,
+    "title": "Bolo de laranja",
+    "photo": "https://images.unsplash.com/photo-1615454389901-8d9d2f6743a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "size": 300,
+    "serving": 3,
+    "price": 46,
     "id": 2,
     "category": {
       "id": 1,
-      "label": "Massas"
+      "label": "Bolos"
     }
   },
   {
-    "title": "Macarrão com chilli",
-    "description": "Macarrão fetuccine com molho de chilli e especiárias.",
-    "photo": "/assets/pratos/macarrao_com_chilli.png",
-    "size": 350,
-    "serving": 1,
-    "price": 58.0,
+    "title": "Bolo de morango",
+    "photo": "https://images.unsplash.com/photo-1622621746668-59fb299bc4d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2133&q=80",
+    "size": 250,
+    "serving": 2,
+    "price": 34,
     "id": 3,
     "category": {
       "id": 1,
-      "label": "Massas"
+      "label": "Bolos"
     }
   },
   {
-    "title": "Salada da casa com salmão grelhado",
-    "description": "Salada da casa (alface, rúcula, cenoura) com salmão.",
-    "photo": "/assets/pratos/salada_da_casa.png",
-    "size": 450,
+    "title": "Trufa chocolate amargo",
+    "photo": "https://images.unsplash.com/photo-1503153888445-cd465dba5c3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+    "size": 85,
     "serving": 1,
-    "price": 42.0,
+    "price": 4,
     "id": 4,
     "category": {
       "id": 2,
-      "label": "Carnes"
+      "label": "Trufas"
     }
   },
   {
-    "title": "Bife com batatas",
-    "description": "Bife de boi (150g) na chapa, com batatas fritas. Acompanha arroz e molhos.",
-    "photo": "/assets/pratos/bife_com_batatas.png",
-    "size": 550,
-    "serving": 2,
-    "price": 86.0,
+    "title": "Trufa de chocolate",
+    "photo": "https://images.unsplash.com/photo-1583480241328-87b2795fbb8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80",
+    "size": 70,
+    "serving": 1,
+    "price": 3,
     "id": 5,
     "category": {
       "id": 2,
-      "label": "Carnes"
+      "label": "Trufas"
     }
   },
   {
-    "title": "Picanha picada com legumes e massa",
-    "description": "400g de picanha picada, com legumes grelhados e massa escolhida pelo cliente.",
-    "photo": "/assets/pratos/picanha_picada.png",
-    "size": 850,
-    "serving": 3,
-    "price": 123.0,
+    "title": "Trufa de maracujá",
+    "photo": "https://images.unsplash.com/photo-1505253865397-1d932f9f3b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60",
+    "size": 82,
+    "serving": 1,
+    "price": 5,
+    "id": 10,
+    "category": {
+      "id": 2,
+      "label": "Trufas"
+    }
+  },
+  {
+    "title": "Cupcake de chocolate branco",
+    "photo": "https://images.unsplash.com/photo-1623246123320-0d6636755796?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGN1cGNha2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
+    "size": 110,
+    "serving": 1,
+    "price": 11,
     "id": 6,
     "category": {
       "id": 3,
-      "label": "Combos"
+      "label": "Cupcakes"
     }
   },
   {
-    "title": "Lasagna vegana (carne de soja)",
-    "description": "Lasagna 100% vegana feita com carne de soja e massa especial.",
-    "photo": "/assets/pratos/lasagna_vegana.png",
-    "size": 350,
+    "title": "Cupcake de chocolate",
+    "photo": "https://images.unsplash.com/photo-1603532648955-039310d9ed75?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y3VwY2FrZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "size": 150,
     "serving": 1,
-    "price": 45.0,
+    "price": 12,
+    "id": 11,
+    "category": {
+      "id": 3,
+      "label": "Cupcakes"
+    }
+  },
+  {
+    "title": "Cappucino",
+    "photo": "https://images.unsplash.com/photo-1557006021-b85faa2bc5e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+    "size": 200,
+    "serving": 1,
+    "price": 12.0,
     "id": 7,
     "category": {
       "id": 4,
-      "label": "Veganos"
+      "label": "Drinks"
     }
   },
   {
-    "title": "Salada especial",
-    "description": "Salada com abacate, manga, alface, grão de bico e muito mais.",
-    "photo": "/assets/pratos/salada_especial.png",
-    "size": 350,
+    "title": "Chocolate quente",
+    "photo": "https://images.unsplash.com/photo-1546980964-e3c8bfef49b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80",
+    "size": 300,
     "serving": 1,
-    "price": 37.0,
+    "price": 13.0,
     "id": 8,
     "category": {
       "id": 4,
-      "label": "Veganos"
+      "label": "Drinks"
     }
   },
   {
-    "title": "Almôndegas",
-    "description": "Porção de almôndegas com sour cream, cebola e tempêros. Acompanha arroz ou massa.",
-    "photo": "/assets/pratos/almondegas.png",
-    "size": 740,
-    "serving": 3,
-    "price": 120.0,
+    "title": "Cupcake de cereja",
+    "photo": "https://images.unsplash.com/photo-1596223575327-99a5be4faf1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+    "size": 180,
+    "serving": 1,
+    "price": 14.0,
     "id": 9,
     "category": {
       "id": 3,
-      "label": "Combos"
+      "label": "Cupcakes"
+    }
+  },
+  {
+    "title": "Batida com morango",
+    "photo": "https://images.unsplash.com/photo-1543573852-1a71a6ce19bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "size": 300,
+    "serving": 1,
+    "price": 14.0,
+    "id": 12,
+    "category": {
+      "id": 4,
+      "label": "Drinks"
     }
   }
 ]

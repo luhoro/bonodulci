@@ -1,18 +1,18 @@
 [
   {
-    "label": "Bebidas",
+    "label": "Bolos",
     "id": 1
   },
   {
-    "label": "Sorvetes",
+    "label": "Trufas",
     "id": 2
   },
   {
-    "label": "Bolos",
+    "label": "Cupcakes",
     "id": 3
   },
   {
-    "label": "Milkshakes",
+    "label": "Drinks",
     "id": 4
   }
 ]
