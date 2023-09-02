@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 import style from './Ordenador.module.scss'
-import opcoes from './opcoes.json'
+import opcoes from 'data/opcoes.json'
 
 export type OpcoesOrdenador = '' | 'porcao' | 'qtd_pessoas' | 'preco'
 
@@ -19,9 +19,9 @@ const Ordenador = ({ordenador, setOrdenador}: Props) => {
       className={`
         ${style.ordenador}
         ${ordenador !== ''
-          ? style['ordenador--ativo']
-          : ''
-        }
+      ? style['ordenador--ativo']
+      : ''
+    }
       `}
       onClick={() => setAberto(!aberto)}
       onBlur={() => setAberto(false)}
