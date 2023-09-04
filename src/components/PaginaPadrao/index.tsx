@@ -1,4 +1,5 @@
 import style from './PaginaPadrao.module.scss'
+import styleTema from 'styles/Tema.module.scss'
 import { Outlet } from 'react-router-dom'
 
 const PaginaPdrao = () => {
@@ -9,9 +10,9 @@ const PaginaPdrao = () => {
           Aqui se encontra o lado mais doce da vida!
         </div>
       </header>
-      <>
+      <div className={styleTema.container}>
         <Outlet />
-      </>
+      </div>
     </>
   )
 }

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Buscador from 'pages/Cardapio/Buscador'
 import style from './Cardapio.module.scss'
+import styleTema from 'styles/Tema.module.scss'
 import Filtros from './Filtros'
 import Ordenador, { OpcoesOrdenador } from 'pages/Cardapio/Ordenador'
 import Itens from './Itens'
@@ -12,7 +13,7 @@ const Cardapio = () => {
 
   return (
     <section className={style.cardapio}>
-      <h3 className={style.cardapio__titulo}>Cardápio</h3>
+      <h3 className={styleTema.titulo}>Cardápio</h3>
       <Buscador busca={busca} setBusca={setBusca} />
 
       <div className={style.cardapio__filtros}>

@@ -1,4 +1,5 @@
-import styles from './Inicio.module.scss'
+import style from './Inicio.module.scss'
+import styleTema from 'styles/Tema.module.scss'
 import cardapio from 'data/itens.json'
 
 const Inicio = () => {
@@ -10,19 +11,19 @@ const Inicio = () => {
 
   return (
     <section>
-      <h3 className={styles.titulo}>
+      <h3 className={styleTema.titulo}>
         Recomendações da cozinha
       </h3>
 
-      <div className={styles.recomendados}>
+      <div className={style.recomendados}>
 
         {pratosRecomendados.map(item => (
-          <div key={item.id} className={styles.recomendado}>
-            <div className={styles.recomendado__imagem}>
+          <div key={item.id} className={style.recomendado}>
+            <div className={style.recomendado__imagem}>
               <img src={item.photo} alt={item.title} />
             </div>
 
-            <button className={styles.recomendado__botao}>
+            <button className={style.recomendado__botao}>
               Ver mais
             </button>
           </div>
