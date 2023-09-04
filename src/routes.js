@@ -4,10 +4,12 @@ import Cardapio from 'pages/Cardapio'
 import Menu from 'components/Menu'
 import PaginaPadrao from 'components/PaginaPadrao'
 import Sobre from 'pages/Sobre/Index'
+import Footer from 'components/Footer'
+import NotFound from 'pages/NotFound'
 
 const AppRouter = () => {
   return (
-    <main>
+    <main className='container'>
       <Router>
         <Menu />
 
@@ -18,8 +20,10 @@ const AppRouter = () => {
             <Route path='sobre' element={<Sobre />} />
           </Route>
 
-          <Route path='/*' />
+          <Route path='*' element={<NotFound />} />
         </Routes>
+
+        <Footer />
       </Router>
     </main>
   )
