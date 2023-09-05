@@ -1,11 +1,10 @@
 import style from './item.module.scss'
-import cardapio from 'data/itens.json'
-import classNames from 'classnames'
+import { IPrato } from 'types/IPrato'
+import Tags from 'components/Tags'
 
-type Props = (typeof cardapio)[0]
 
-const Item = (props: Props) => {
-  const { title, category, photo, price, serving, size } = props
+const Item = (props: IPrato) => {
+  const { title, description, photo } = props
 
   return (
     <div className={style.item}>
@@ -16,28 +15,10 @@ const Item = (props: Props) => {
       <div className={style.item__descricao}>
         <div className={style.item__titulo}>
           <h2>{title}</h2>
+          <p>{description}</p>
         </div>
 
-        <div className={style.item__tags}>
-          <div
-            className={classNames({
-              [style.item__tipo]: true,
-              [style[`item__tipo__${category.label.toLowerCase()}`]]: true,
-            })}
-          >
-            {category.label}
-          </div>
-
-          <div className={style.item__porcao}>{size}g</div>
-
-          <div className={style.item__qtdpessoas}>
-            Serve {serving} pessoa{serving === 1 ? '' : 's'}
-          </div>
-
-          <div className={style.item__valor}>
-            R$ {price.toFixed(2)}
-          </div>
-        </div>
+        <Tags {...props} />
       </div>
     </div>
   )

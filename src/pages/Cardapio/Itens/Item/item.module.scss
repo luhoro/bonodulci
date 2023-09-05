@@ -1,11 +1,6 @@
 @import "styles/variaveis";
 @import "styles/breakpoints";
 
-$bolos: #e2860e;
-$trufas: #bb200b;
-$cupcakes: #1a9b65;
-$drinks: #4077aa;
-
 .item {
   display: flex;
   flex-wrap: wrap;
@@ -49,56 +44,5 @@ $drinks: #4077aa;
       max-width: 600px;
       margin-bottom: 20px;
     }
-  }
-  &__tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    max-width: 700px;
-    @media (max-width: $desktop_xsm) {
-      justify-content: flex-end;
-    }
-    @media (max-width: $mobile) {
-      justify-content: flex-start;
-    }
-  }
-  &__tipo {
-    align-items: center;
-    border-radius: 2px;
-    display: flex;
-    font-weight: bold;
-    height: 40px;
-    justify-content: center;
-    padding: 10px 30px;
-    color: white;
-    border-radius: .3rem;
-    cursor: default;
-    &__bolos {
-      background-color: $bolos;
-    }
-    &__trufas {
-      background-color: $trufas;
-    }
-    &__cupcakes {
-      background-color: $cupcakes;
-    }
-    &__drinks {
-      background-color: $drinks;
-    }
-  }
-  &__porcao,
-  &__qtdpessoas,
-  &__valor {
-    align-items: center;
-    display: flex;
-    font-size: 1.25rem;
-    font-weight: bold;
-    justify-content: center;
-  }
-  &__valor {
-    color: $brown;
-    font-size: 1.7rem;
   }
 }
