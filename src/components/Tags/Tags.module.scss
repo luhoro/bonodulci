@@ -6,13 +6,11 @@ $trufas: #bb200b;
 $cupcakes: #1a9b65;
 $drinks: #4077aa;
 
-
   .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem 2rem;
     justify-content: space-between;
-    margin-bottom: 20px;
     max-width: 700px;
     @media (max-width: $desktop_xsm) {
       justify-content: flex-end;
@@ -28,8 +26,8 @@ $drinks: #4077aa;
     font-weight: bold;
     height: 40px;
     justify-content: center;
-    padding: 10px 30px;
-    color: white;
+    padding: .8rem 1.5rem;
+    color: #f0f0f0;
     border-radius: 0.3rem;
     cursor: default;
     &__bolos {

@@ -35,13 +35,10 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  gap: .8rem;
   &__descricao {
     color: $darkest-grey;
     font-size: 1.5rem;
     font-weight: bold;
-  }
-  &____detalhes {
-    display: flex;
-    justify-content: space-between;
   }
 }

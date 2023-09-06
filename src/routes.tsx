@@ -10,19 +10,19 @@ import Prato from 'pages/Prato'
 
 const AppRouter = () => {
   return (
-    <main className='container'>
+    <main className="container">
       <Router>
         <Menu />
 
         <Routes>
-          <Route path='/' element={<PaginaPadrao />} >
+          <Route path="/" element={<PaginaPadrao />}>
             <Route index element={<Inicio />} />
-            <Route path='cardapio' element={<Cardapio />} />
-            <Route path='sobre' element={<Sobre />} />
-            <Route path='prato/:id' element={<Prato />} />
+            <Route path="cardapio" element={<Cardapio />} />
+            <Route path="sobre" element={<Sobre />} />
           </Route>
 
-          <Route path='*' element={<NotFound />} />
+          <Route path="prato/:id" element={<Prato />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
 
         <Footer />
