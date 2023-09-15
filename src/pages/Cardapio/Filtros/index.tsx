@@ -1,6 +1,7 @@
 import style from './Filtros.module.scss'
 import filtros from 'data/filtros.json'
 import classNames from 'classnames'
+import { memo } from 'react'
 
 type IOpcao = (typeof filtros)[0]
 
@@ -33,4 +34,4 @@ const Filtros = ({ filtro, setFiltro }: Props) => {
   )
 }
 
-export default Filtros
+export default memo(Filtros)

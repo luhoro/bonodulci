@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
+import React, { useState, memo } from 'react'
+import { MdKeyboardArrowUp } from 'react-icons/md'
 import style from './Ordenador.module.scss'
 import opcoes from 'data/opcoes.json'
 
@@ -27,10 +27,17 @@ const Ordenador = ({ordenador, setOrdenador}: Props) => {
       onBlur={() => setAberto(false)}
     >
       <span>{nomeOrdenador || 'Ordenar por'}</span>
-      {aberto
+      <MdKeyboardArrowUp
+        size={22}
+        color='#4c4d5e'
+        style={{
+          transform: `rotate(${aberto ? 0 : 180}deg)`
+        }}
+      />
+      {/* {aberto
         ? < MdKeyboardArrowUp size={20}/>
         : < MdKeyboardArrowDown size={20} />
-      }
+      } */}
 
       <div className={`
         ${style.ordenador__options}
@@ -50,4 +57,4 @@ const Ordenador = ({ordenador, setOrdenador}: Props) => {
   )
 }
 
-export default Ordenador
+export default memo(Ordenador)
